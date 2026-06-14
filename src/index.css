@@ -1,0 +1,11 @@
+@import "tailwindcss";
+@config "../tailwind.config.cjs";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-gray-800 antialiased;
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+}
